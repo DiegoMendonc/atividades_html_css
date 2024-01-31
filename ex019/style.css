@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* 
+    HTML = id - CSS = #   <= Usa apenas 1 vez
+    HTML = class - CSS = .    
+*/
+body{
+    background-image: linear-gradient(to right, rgb(191, 237, 191), rgb(12, 100, 12));
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color:  rgb(36, 8, 71);
+    text-shadow: 2px 2px 5px rgb(77, 107, 177);
+}
+#principal{
+    background-image: linear-gradient(to bottom, rgb(129, 196, 129), rgb(18, 88, 18));
+    color: black;
+    text-align: center;
+    text-shadow: 2px 2px 3px rgb(193, 193, 193);
+}
+h2{
+    color: rgb(76, 7, 108)
+}
+.basico{
+    color: rgb(2, 53, 2);
+    font-weight: bold;
+    text-shadow: 2px 2px 3px rgb(193, 193, 193) ;
+}
+.intermediario{
+    color: rgb(142, 135, 2);
+    font-weight: bold;
+    text-shadow: 2px 2px 3px rgb(193, 193, 193) ;
+}
+.avancado{
+    color: rgb(150, 23, 12);
+    font-weight: bold;
+    text-shadow: 2px 2px 3px rgb(193, 193, 193);
+}
+.destaque{
+    background-image: linear-gradient(to right, rgba(224, 224, 150, 0.999), rgb(139, 139, 40));
+    font-weight: bolder;
+    
+}

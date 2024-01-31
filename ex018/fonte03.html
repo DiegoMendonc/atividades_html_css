@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: "London";
+            src: url("fonts/OldLondon.ttf"), format("truetype"), url(Fonts/Olondon_.otf), format(opentype);
+            font-weight: normal;
+            font-style: normal;
+        }
+        /* 
+        Tipos de format():
+            - opentype (otf);
+            - truetype (ttf);
+            - embeddd-opentype;
+            - truetype-aat (Apple Advanced Typography);
+            - svg
+        */
+        body{
+            background-image: linear-gradient(to right, rgb(214, 210, 210)
+            , rgb(101, 98, 98));
+            font-family: Arial, Helvetica, sans-serif;
+            margin: auto;
+            padding: 50px;
+            width: 350px;
+            height: 150px;
+            border-width: 10px;
+            border-bottom: 15px;
+            border-color: rgb(0, 0, 0);
+            border-style: groove;
+            display: inline-table;
+            border-radius: 10%;
+        }
+        h1{
+            font-family:"London";
+            font-size: 4em;
+            font-weight: normal;
+
+        }
+    </style>
+</head>
+<body>
+    <hr>
+    <h1>Olá Mundo!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic officia perspiciatis voluptatum reprehenderit repudiandae accusantium? Eius dicta doloremque repudiandae vero quod, saepe perferendis! Labore omnis quia saepe aspernatur placeat aperiam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, accusantium? Earum fuga eos laboriosam asperiores excepturi, recusandae reprehenderit, doloremque aspernatur deserunt accusamus quibusdam. Commodi, asperiores. Aut error enim maxime saepe!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ratione assumenda iusto tempora! Earum obcaecati esse corporis maxime quae facere modi, magni soluta fugit impedit odit repellat consequatur in beatae.</p>
+    <hr>
+</body>
+</html>
