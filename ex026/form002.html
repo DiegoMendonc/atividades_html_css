@@ -4,9 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body{
+            background-image:linear-gradient(to right, rgb(69, 20, 80), rgb(31, 1, 35));
+            color: white;
+        }
+
+        h1{
+            text-align: center;
+            font-style: oblique;
+            font-size: 3em;
+        }
+        
+        h1:hover{
+            background-color: rgba(0, 0, 0, 0.59);
+            transition: 1s;
+        }
+
+        form{
+            border: 1px solid black;
+            text-align: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 3.5em;
+            background-color: rgb(161, 68, 192);
+            color: rgb(71, 10, 168);
+            display: inline-block;
+            position: absolute;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            border-radius: 15px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        form:hover{
+            border: 1px solid white;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 20px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.579);
+            transition: 1s;
+        }
+    </style>
 </head>
 <body>
+    <hr>
     <h1>Teste de Formulário</h1>
+    <hr>
     <form action="cadastro.py" method="post" autocomplete="on">
         <p>
             <label for="iusu">Usuário: </label>
@@ -21,5 +70,6 @@
            <input type="reset" value="Limpar">
         </p>
     </form>
+    <hr>
 </body>
 </html>
