@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body{
+            background-color: rgb(8, 8, 108);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        form{
+            
+        }
+
+        fieldset.dp{
+            margin: 10px;
+            padding: 5px;
+            height: 90px;
+            width: 300px;
+            background-color: rgba(197, 100, 242, 0.637);
+            text-shadow: 2px 3px 2px black;
+            color: white;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;            
+        }
+
+        fieldset.dp:hover, fieldset.dc:hover, fieldset.da:hover{
+            background-color: black;
+            color: rgb(80, 80, 205);
+            transition: 1s;
+        }
+
+        fieldset.dc{
+            margin: 10px;
+            padding: 5px;
+            height: 150px;
+            width: 300px;
+            background-color: rgba(197, 100, 242, 0.648);
+            text-shadow: 2px 3px 2px black;
+            color: white;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+            
+        }
+
+        fieldset.da{
+            margin: 10px;
+            padding: 5px;
+            height: 150px;
+            width: 300px;
+            background-color: rgba(197, 100, 242, 0.648);
+            text-shadow: 2px 3px 2px black;
+            color: white;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <form action="cadastro.php" method="get">
+        <fieldset class="dp">
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="inome">Nome</label>
+                <input type="text" name="nome" id="inome" minlength="5" maxlength="15" required>
+            </p>
+            <p>
+                <label for="iemail">E-mail</label>
+                <input type="email" name="email" id="iemail" autocomplete="email" required>
+            </p>
+            <p>
+                <label for="itel">Telefone</label>
+                <input type="tel" name="tel" id="itel" autocomplete="tel" required>
+            </p>
+        </fieldset>
+        <fieldset class="dc">
+            <legend>Dados Cadastrais</legend>
+            <p>
+                <label for="ipais">País</label>
+                <input type="text" name="pais" id="ipais" required>
+            </p>
+            <p>
+                <label for="iestado">Estado</label>
+                <input type="text" name="estado" id="iestado" required>
+            </p>
+            <p>
+                <label for="icidade">Cidade</label>
+                <input type="text" name="cidade" id="icidade" required>
+            </p>
+            <p>
+                <label for="iend">Endereço</label>
+                <input type="text" name="end" id="iend" required>
+            </p>
+            <p>
+                <label for="inumero">Nº</label>
+                <input type="number" name="numero" id="inumero" required>
+            </p>
+            <p>
+                <label for="ibairro">Bairro</label>
+                <input type="text" name="bairro" id="ibairro">
+            </p>
+        </fieldset>
+        <fieldset class="da">
+            <legend>Dados Adicionais</legend>
+            <p>
+                <label for="iprof">Profissão</label>
+                <input type="text" name="prof" id="iprof">
+            </p>
+            <p>
+                <label for="isalario">Salário</label>
+                <input type="number" name="salario" id="isalario">
+            </p>
+            <p>
+                <label for="ipret">Pret. Salarial</label>
+                <input type="number" name="pret" id="ipret">
+            </p>
+            <p>
+                <label for="ides">Cargo Desejado</label>
+                <input type="text" name="des" id="ides">
+            </p>
+            <p>
+                <label for="iult">Última Exp.Prof.</label>
+                <input type="text" name="ult" id="iult">
+            </p>
+            <p>
+                <label for="iesco">Escolaridade</label>
+                <input type="text" name="esco" id="iesco">
+            </p>
+        </fieldset>
+        <div class="botao">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+</body>
+</html>
