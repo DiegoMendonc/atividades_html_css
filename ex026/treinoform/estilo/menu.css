@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: url("../imagens/fundo-index-p.jpg");
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+header > h1{
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+header > nav p{
+    margin: auto;
+    padding: 5px;
+    display: inline-block;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10%;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    background-color: rgba(0, 0, 0, 0.387);
+}
+
+header > nav a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+header > nav a:hover{
+    background-color: black;
+    color: white;
+    transition: 1.2s;
+    display: inline-block;
+    padding: 0.5px;
+    text-align: center;
+    border-radius: 10%;
+    box-shadow: 1px 2px 3px white;
+}
+
+main{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("../imagens/fundo-index-p.jpg");
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px 5px white;
+}
+
+main h2, p, h3{
+    padding: 5px;
+    margin: 10px;
+}
+
+.img1{
+    width: 100%;
+    max-width: 70%;
+}
+footer{
+    background-image: url("../imagens/fundo-index-p.jpg");
+    border: 1px solid black;
+    border-radius: 10px;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover{
+    background-color: black;
+    color: white;
+    transition: 1.2s;
+    display: inline-block;
+    padding: 0.5px;
+    text-align: center;
+    border-radius: 10%;
+    box-shadow: 1px 2px 3px white;
+}
