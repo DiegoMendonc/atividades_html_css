@@ -81,3 +81,26 @@ fieldset > legend{
     color: blueviolet;
     transition: 1.2s;
 }
+
+footer{
+    position: absolute;
+    top: 95%;
+    display: block;
+    border: 1px solid black;
+    background-color: rgba(69, 19, 69, 0.379);
+    padding: 5px;
+
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    background-color: white;
+    color: rgba(69, 19, 69, 0.964);
+    transition: 1.5s;
+    border-radius: 5%;
+    box-shadow: 2px 4px 5px black;
+}
