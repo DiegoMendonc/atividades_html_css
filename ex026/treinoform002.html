@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino</title>
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+    <hr>
+    <header>
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Sobre nós</a>
+            <a href="#">Fale conosco</a>
+        </nav>
+    </header>
+    <hr>
+    <main class="corpo">
+        <div class="cabeca">
+            <h1>Bem Vindos à Instituição BiruBiru</h1><br>
+            <p>Obrigado por nos escolher! Para Iniciar sua jornada, favor preencha o formulário de cadastro abaixo</p>
+        </div>
+        <hr>
+        <form action="cadastro.php" method="post" autocomplete="on">
+            <fieldset> 
+                <legend>Dados Cadastrais</legend>
+                <div class="info">
+                    <label for="inome">Nome Completo</label>
+                    <input type="text" name="nome" id="inome" ><br>
+                    <br>
+                    <label for="iCPF">CPF</label>
+                    <input type="number" name="CPF" id="iCPF"><br>
+                    <br>
+                    <label for="icivil">Estado Civil</label>
+                    <select name="civil" id="icivil">
+                        <option value="sol">Solteiro</option>
+                        <option value="cas">Casado</option>
+                        <option value="div">Divorciado</option>
+                        <option value="viu">Viúvo</option>
+                        <option value="nresp">Prefiro não responder</option>
+                    </select><br>
+                    <br>
+                    <label for="icidade">Cidade</label>
+                    <input type="text" name="cidade" id="icidade"><br>
+                    <br>
+                    <label for="ibairro">Bairro</label>
+                    <input type="text" name="bairro" id="ibairro">
+                    <label for="in">Nº</label>
+                    <input type="number" name="n" id="in" min="1" max="9999"><br>
+                    <br>
+                    <label for="iest">Estado</label>
+                    <select name="est" id="iest">
+                        <option value="">--- Escolha ---</option>
+                        <optgroup label="Estados">
+                            <option value="MG">MG</option>
+                            <option value="RJ">RJ</option>
+                            <option value="SP">SP</option>
+                            <option value="TO">TO</option>
+                            <option value="SE">SE</option>
+                            <option value="SC">SC</option>
+                            <option value="RR">RR</option>
+                            <option value="RO">RO</option>
+                            <option value="RS">RS</option>
+                            <option value="RN">RN</option>
+                            <option value="PI">PI</option>
+                            <option value="PE">PE</option>
+                            <option value="PR">PR</option>
+                            <option value="PB">PB</option>
+                            <option value="PA">PA</option>
+                            <option value="MS">MS</option>
+                            <option value="MT">MT</option>
+                            <option value="MA">MA</option>
+                            <option value="GO">GO</option>
+                            <option value="ES">ES</option>
+                            <option value="DF">DF</option>
+                            <option value="CE">CE</option>
+                            <option value="BA">BA</option>
+                            <option value="AM">AM</option>
+                            <option value="SP">SP</option>
+                        </optgroup>
+                    </select><br>
+                    <br>
+                    <label for="icep">CEP</label>
+                    <input type="number" name="cep" id="icep"><br>
+                    <br>
+                    <input type="submit" value="Enviar" class="boten">
+                    <input type="reset" value="Limpar" class="botli">
+            </div>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>

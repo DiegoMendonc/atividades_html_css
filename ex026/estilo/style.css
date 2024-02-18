@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(87, 87, 221), rgb(44, 44, 137));
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header > nav{
+        padding: 5px;
+}
+
+header > nav > a{
+    text-decoration: none;
+    color: aliceblue;
+    border: 1px solid black;
+    padding: 3px;
+    background-color: black;
+    text-align: center;
+    font-size: 350;
+}
+
+header > nav > a:hover{
+    background-color: white;
+    color: black;
+    transition: 1.2s;
+}
+
+fieldset{
+    padding: 5px;
+    margin: 5px;
+    background-color: rgba(191, 146, 243, 0.535);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 330px;
+    width: 350px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    text-shadow: 1px 1px 4px black;
+    color: aliceblue;
+}
+
+fieldset{
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5%;
+}
+
+fieldset > legend{
+    font-size: x-large;
+    padding: 5px;
+}
+
+.cabeca{
+    text-align: center;
+    text-shadow: 1px 1px 4px black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.cabeca > h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.boten, .botli{
+    background-color: blueviolet;
+    padding: 5px;
+    text-decoration: none;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+.boten:hover, .botli:hover{
+    background-color: black;
+    color: blueviolet;
+    transition: 1.2s;
+}
